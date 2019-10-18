@@ -1,3 +1,18 @@
+<?php
+session_start();
+$username = $_SESSION['username'];
+if(isset($username))
+{
+
+}else{
+  header("Location: login.php");
+}
+?>
+<?php
+require_once $_SERVER['DOCUMENT_ROOT'].'/feb_pd/resource/php/function/logoutCode.php';
+$logout = new logoutCode;
+$logout->logout();
+?>
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -60,10 +75,14 @@
                         You are now logged in.
                       </p>
                       <form method="GET">
-                        <div class="col-md-6">
-                             <button class="btn btn-primary" name="logout">Log out</button>
-                             <a class="btn btn-primary" href="edit.php">Change Password</a>
-                           </div>
+
+                      <div class="form-group row mb-0">
+                          <div class="col-md-6">
+                            <button class="btn btn-primary" name="logout">Log out</button>
+                            <a class="btn btn-primary" href="edit.php">Change Password</a>
+                          </div>
+                      </div>
+
                     </form>
                   </div>
               </div>

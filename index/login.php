@@ -1,4 +1,11 @@
-
+<?php
+require_once $_SERVER['DOCUMENT_ROOT'].'/feb_pd/resource/php/function/loginCode.php';
+session_start();
+if(isset($_GET['login'])){
+  $edit = new loginCode($_GET['username'],$_GET['password']);
+  $edit->login();
+}
+?>
 <!DOCTYPE html>
 <html lang="en">
 <head>
