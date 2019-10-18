@@ -1,4 +1,10 @@
-
+<?php
+require_once $_SERVER['DOCUMENT_ROOT'].'/feb_pd/resource/php/function/registerCode.php';
+if(isset($_GET['register'])){
+  $edit = new register($_GET['name'],$_GET['password'],$_GET['email']);
+  $edit->register();
+}
+?>
 <!DOCTYPE html>
 <html lang="en">
 <head>

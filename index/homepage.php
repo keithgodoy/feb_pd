@@ -38,12 +38,10 @@
                       <p>
                         You are now logged in.
                       </p>
-                      <form method="POST">
+                      <form method="GET">
                       <div class="form-group row mb-0">
                           <div class="col-md-6">
-                              <button type="submit" class="btn btn-primary" name="logout">
-                              Log Out
-                              </button>
+                            <a class="btn btn-primary" href="edit.php">Change Password</a>
                           </div>
                       </div>
                     </form>
