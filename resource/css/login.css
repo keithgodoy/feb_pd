@@ -1,0 +1,11 @@
+*{
+  padding: 0px;
+  margin: 0px;
+}
+.navbar .brand{
+  max-height: 10%;
+  max-width: 10%;
+  overflow: visible;
+  padding-top: 0;
+  padding-bottom: 0;
+}
