@@ -69,7 +69,7 @@ $logout->logout();
 <br/>
 <div class="row justify-content-center">
 
-              <div class="card col-md-8">
+              <div class="card col-md-8 px-0">
                   <div class="card-header">Home Page</div>
                   <div class="card-body">
                       <p>
