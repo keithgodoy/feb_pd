@@ -15,11 +15,9 @@ if(isset($_GET['register'])){
 </head>
 <body>
   <div id="register">
-          <nav class="navbar navbar-expand-md navbar-light bg-white">
+          <nav class="navbar navbar-expand-md navbar-light bg-danger">
               <div class="container">
-                  <a class="navbar-brand" href="login.php">
-                  Laravel
-                  </a>
+                  <h4 class="text-light" href="register.php">Register Page</h4>
                   <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCont" aria-controls="navbarCont" aria-expanded="false" aria-label="Toggle navigation">
                   <span class="navbar-toggler-icon"></span>
                   </button>
@@ -28,25 +26,25 @@ if(isset($_GET['register'])){
                       </ul>
                       <ul class="navbar-nav ml-auto">
                       <li class="nav-item">
-                      <a class="nav-link" href="login.php">Login</a>
+                      <a class="nav-link text-light" href="login.php">Login</a>
                       </li>
                       <li class="nav-item">
-                      <a class="nav-link" href="register.php">Register</a>
+                      <a class="nav-link text-light" href="register.php">Register</a>
                       </li>
                       </ul>
                   </div>
               </div>
           </nav>
           <main class="py-4">
-        <div class="container">
+        <div class="container" style="margin-top: 10%;">
       <div class="row justify-content-center">
           <div class="col-md-8">
               <div class="card">
-                  <div class="card-header">Register</div>
+                  <div class="card-header bg-danger text-light">Register</div>
                   <div class="card-body">
                       <form method="GET" action="register.php">
                           <div class="form-group row">
-                              <label for="name" class="col-md-4 col-form-label text-md-right">Name</label>
+                              <label for="name" class="col-md-4 col-form-label text-md-right">Username</label>
                               <div class="col-md-6">
                                   <input id="name" type="text" class="form-control " name="name" value="" required autocomplete="name" autofocus>
                               </div>
@@ -65,7 +63,7 @@ if(isset($_GET['register'])){
                           </div>
                           <div class="form-group row mb-0">
                               <div class="col-md-6 text-right">
-                                  <button type="submit" class="btn btn-primary" name="register">
+                                  <button type="submit" class="btn btn-danger" name="register">
                                   Register
                                   </button>
                               </div>

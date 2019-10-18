@@ -13,14 +13,14 @@ if(isset($_GET['login'])){
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Login page</title>
   <link href="../vendor/css/bootstrap.min.css" rel="stylesheet">
+  <link href="/feb_pd/resource/css/login.css" type="text/css" rel="stylesheet">
 </head>
 <body>
   <div id="login">
-          <nav class="navbar navbar-expand-md navbar-light bg-white">
+          <nav class="navbar navbar-expand-md navbar-light text-light bg-danger" >
+
               <div class="container">
-                  <a class="navbar-brand" href="login.php">
-                  Laravel
-                  </a>
+                <h4 class="text-light" href="login.php">Login Page</h4>
                   <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCont" aria-controls="navbarCont" aria-expanded="false" aria-label="Toggle navigation">
                       <span class="navbar-toggler-icon"></span>
                   </button>
@@ -29,20 +29,20 @@ if(isset($_GET['login'])){
                       </ul>
                       <ul class="navbar-nav ml-auto">
                       <li class="nav-item">
-                      <a class="nav-link" href="login.php">Login</a>
+                      <a class="nav-link text-light" href="login.php">Login</a>
                       </li>
                       <li class="nav-item">
-                      <a class="nav-link" href="register.php">Register</a>
+                      <a class="nav-link text-light" href="register.php">Register</a>
                       </ul>
                   </div>
               </div>
           </nav>
           <main class="py-4">
-              <div class="container">
+              <div class="container" style="margin-top: 10%;">
       <div class="row justify-content-center">
           <div class="col-md-8">
               <div class="card">
-                  <div class="card-header">Login</div>
+                  <div class="card-header bg-danger text-light">Login</div>
                   <div class="card-body">
                       <form method="GET" action="">
                           <div class="form-group row">
@@ -59,7 +59,7 @@ if(isset($_GET['login'])){
                           </div>
                           <div class="form-group row mb-0">
                               <div class="col-md-8 text-center ml-5">
-                                  <button type="submit" class="btn btn-primary" name="login">
+                                  <button type="submit" class="btn btn-danger" name="login">
                                       Login
                                   </button>
                             </div>
