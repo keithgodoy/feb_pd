@@ -66,9 +66,10 @@ $logout->logout();
               </div>
         </nav>
 </header>
+<br/>
 <div class="row justify-content-center">
 
-              <div class="card col-md-7">
+              <div class="card col-md-8">
                   <div class="card-header">Home Page</div>
                   <div class="card-body">
                       <p>
@@ -78,8 +79,8 @@ $logout->logout();
 
                       <div class="form-group row mb-0">
                           <div class="col-md-6">
-                            <button class="btn btn-primary" name="logout">Log out</button>
-                            <a class="btn btn-primary" href="edit.php">Change Password</a>
+                            <button class="btn btn-danger" name="logout">Log out</button>
+                            <a class="btn btn-danger text-light " href="edit.php">Change Password</a>
                           </div>
                       </div>
 

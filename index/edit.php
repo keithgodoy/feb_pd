@@ -15,7 +15,7 @@ if(isset($_GET['update'])){
 </head>
 <body>
   <nav class="navbar">
-    <a href="homepage.php" class="stretched-link mr-5">Go Back</a>
+    <a href="homepage.php" class="stretched-link mr-5 text-danger">Go Back</a>
   </nav>
   <div class="container">
   <div class="row justify-content-center">
@@ -31,7 +31,7 @@ if(isset($_GET['update'])){
       <label for="contactLas">New Password</label>
       <input class="form-control" id="password" placeholder="New Password" name="newpassword" required autocomplete="username">
       </div>
-      <button type="submit" class="btn btn-primary col" name="update">Update</button>
+      <button type="submit" class="btn btn-danger col" name="update">Update</button>
     </form>
   </div>
   </div>
