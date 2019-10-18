@@ -11,9 +11,7 @@
   <div id="register">
           <nav class="navbar navbar-expand-md navbar-light bg-danger">
               <div class="container">
-                  <a class="navbar-brand text-light" href="login.php">
-                  Register Page
-                  </a>
+                  <h4 class="text-light" href="register.php">Register Page</h4>
                   <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCont" aria-controls="navbarCont" aria-expanded="false" aria-label="Toggle navigation">
                   <span class="navbar-toggler-icon"></span>
                   </button>

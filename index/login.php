@@ -11,8 +11,9 @@
 <body>
   <div id="login">
           <nav class="navbar navbar-expand-md navbar-light text-light bg-danger" >
-            <h4 class="text-light">Login Page</h4>
+
               <div class="container">
+                <h4 class="text-light" href="login.php">Login Page</h4>
                   <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCont" aria-controls="navbarCont" aria-expanded="false" aria-label="Toggle navigation">
                       <span class="navbar-toggler-icon"></span>
                   </button>
