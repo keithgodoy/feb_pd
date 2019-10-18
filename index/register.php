@@ -40,7 +40,7 @@
                   <div class="card-body">
                       <form method="GET" action="register.php">
                           <div class="form-group row">
-                              <label for="name" class="col-md-4 col-form-label text-md-right">Name</label>
+                              <label for="name" class="col-md-4 col-form-label text-md-right">Username</label>
                               <div class="col-md-6">
                                   <input id="name" type="text" class="form-control " name="name" value="" required autocomplete="name" autofocus>
                               </div>
