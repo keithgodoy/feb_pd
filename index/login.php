@@ -1,0 +1,70 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Login page</title>
+  <link href="../vendor/css/bootstrap.min.css" rel="stylesheet">
+</head>
+<body>
+  <div id="login">
+          <nav class="navbar navbar-expand-md navbar-light bg-white">
+              <div class="container">
+                  <a class="navbar-brand" href="login.php">
+                  Laravel
+                  </a>
+                  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCont" aria-controls="navbarCont" aria-expanded="false" aria-label="Toggle navigation">
+                      <span class="navbar-toggler-icon"></span>
+                  </button>
+                  <div class="collapse navbar-collapse" id="navbarCont">
+                      <ul class="navbar-nav mr-auto">
+                      </ul>
+                      <ul class="navbar-nav ml-auto">
+                      <li class="nav-item">
+                      <a class="nav-link" href="login.php">Login</a>
+                      </li>
+                      <li class="nav-item">
+                      <a class="nav-link" href="register.php">Register</a>
+                      </ul>
+                  </div>
+              </div>
+          </nav>
+          <main class="py-4">
+              <div class="container">
+      <div class="row justify-content-center">
+          <div class="col-md-8">
+              <div class="card">
+                  <div class="card-header">Login</div>
+                  <div class="card-body">
+                      <form method="GET" action="">
+                          <div class="form-group row">
+                              <label for="username" class="col-md-4 col-form-label text-md-right">Username</label>
+                              <div class="col-md-6">
+                                  <input id="username" type="username" class="form-control " name="username" value="" required autocomplete="username" autofocus>
+                              </div>
+                          </div>
+                          <div class="form-group row">
+                              <label for="password" class="col-md-4 col-form-label text-md-right">Password</label>
+                              <div class="col-md-6">
+                                  <input id="password" type="password" class="form-control " name="password" required autocomplete="password">
+                              </div>
+                          </div>
+                          <div class="form-group row mb-0">
+                              <div class="col-md-8 text-center ml-5">
+                                  <button type="submit" class="btn btn-primary" name="login">
+                                      Login
+                                  </button>
+                            </div>
+                          </div>
+                      </form>
+                  </div>
+              </div>
+          </div>
+      </div>
+  </div>
+  </div>
+</body>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+<script src="../vendor/js/bootstrap.min.js"></script>
+</html>
