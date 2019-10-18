@@ -60,8 +60,10 @@
                         You are now logged in.
                       </p>
                       <form method="GET">
-                      <div class="form-group row mb-0">
-                      </div>
+                        <div class="col-md-6">
+                             <button class="btn btn-primary" name="logout">Log out</button>
+                             <a class="btn btn-primary" href="edit.php">Change Password</a>
+                           </div>
                     </form>
                   </div>
               </div>
@@ -125,7 +127,7 @@
           <div class="row">
             <div class="col-md-5 justify-content-center">
               <img src="../resource/img/laptop1.png" ALT="img" class="image" WIDTH=440 HEIGHT=340>
-            
+
             </div>
             <div class="col-md-6 text-center">
               <h2 class="display-4 pt-5 my-4 text-white">
